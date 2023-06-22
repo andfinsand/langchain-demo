@@ -1,0 +1,36 @@
+# Ignore Python bytecode files
+__pycache__
+*.py[cod]
+
+# Ignore compiled files
+*.so
+*.pyd
+*.dll
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore API key file
+api_key.txt
+
+# Ignore logs and output files
+*.log
+*.csv
+*.json
+
+# Ignore virtual environment files (if using venv or virtualenv)
+venv/
+env/
+.env
+mylangchainenv
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency directories
+/venv/
+
+.chroma
